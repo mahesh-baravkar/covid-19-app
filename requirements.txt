@@ -1,7 +1,5 @@
 flask
-flask_sqlalchemy
+flask-sqlalchemy
 apscheduler
-atexit
-requests
 datetime
 pandas
