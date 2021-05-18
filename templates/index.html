@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,
+            shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+
+    <title>Covid-19</title>
+
+</head>
+
+<body>
+
+    <header class="sticky-top bg-white p-3">
+
+        <h1 class="text-center mb-0">Covid-19</h1>
+    </header>
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-6">
+                <form class="form-inline" method="POST">
+
+                    <div class="dropdown">
+                        <div class="form-group">
+                            <select class="form-control" id="exampleFormControlSelect1" name="dropdown">
+                                <option value="All">All</option>
+                                {% for drop in dropdownval %}
+                                
+                                {% if selected == drop %}
+                                    <option value="{{drop}}" selected="{{selected}}">{{drop}}</option>
+                                {% endif %}
+                                    
+                                <option value="{{drop}}">{{drop}}</option>
+                                {% endfor %}
+                                    
+<!--                                          
+                                    <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+                                    <option value="Andhra Pradesh">Andhra Pradesh</option>
+                                    <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                                    <option value="Assam">Assam</option>
+                                    <option value="Bihar">Bihar</option>
+                                    <option value="Chandigarh">Chandigarh</option>
+                                    <option value="Chhattisgarh">Chhattisgarh</option>
+                                    <option value="Delhi">Delhi</option>
+                                    <option value="Dadra and Nagar Haveli and Daman and Diu">Dadra and Nagar Haveli and Daman and Diu</option>
+                                    <option value="Goa">Goa</option>
+                                    <option value="Gujarat">Gujarat</option>
+                                    <option value="Himachal Pradesh">Himachal Pradesh</option>
+                                    <option value="Haryana">Haryana</option>
+                                    <option value="Jharkhand">Jharkhand</option>
+                                    <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                                    <option value="Karnataka">Karnataka</option>
+                                    <option value="Kerala">Kerala</option>
+                                    <option value="Ladakh">Ladakh</option>
+                                    <option value="Lakshadweep">Lakshadweep</option>
+                                    <option value="Maharashtra">Maharashtra</option>
+                                    <option value="Meghalaya">Meghalaya</option>
+                                    <option value="Manipur">Manipur</option>
+                                    <option value="Madhya Pradesh">Madhya Pradesh</option>
+                                    <option value="Mizoram">Mizoram</option>
+                                    <option value="Nagaland">Nagaland</option>
+                                    <option value="Odisha">Odisha</option>
+                                    <option value="Punjab">Punjab</option>
+                                    <option value="Puducherry">Puducherry</option>
+                                    <option value="Rajasthan">Rajasthan</option>
+                                    <option value="Sikkim">Sikkim</option>
+                                    <option value="Telangana">Telangana</option>
+                                    <option value="Tamil Nadu">Tamil Nadu</option>
+                                    <option value="Tripura">Tripura</option>
+                                    <option value="Uttar Pradesh">Uttar Pradesh</option>
+                                    <option value="Uttarakhand">Uttarakhand</option>
+                                    <option value="West Bengal">West Bengal</option> -->
+                                </select>
+                            <button type="submit" class="btn btn-default ml-3">Go</button>
+                        </div>
+
+                    </div>
+                </form>
+                {% if selected%}
+                <h5><span class="badge badge-pill badge-dark mt-3">{{selected}}</span></h5> {% endif %}
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card mt-3 border border-success">
+                    <div class="card-body">
+                        <h6 class="card-title mb-0">Total<i class="fa fa-sort-up float-right"></i> </h6>
+                        <h3 class="card-text mb-0"> {{cardd.total_cases}}</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card mt-3 border border-primary">
+                    <div class="card-body">
+                        <h6 class="card-title mb-0">Active<i class="fa fa-circle text-success float-right"></i></h6>
+                        <h3 class="card-text mb-0">{{cardd.active_cases}}</h3>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card mt-3 border border-warning">
+                    <div class="card-body">
+                        <h6 class="card-title mb-0">Recovered<i class="fa fa-check float-right"></i></h6>
+                        <h3 class="card-text mb-0">{{cardd.recovered_cases}}</h3>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card mt-3 border border-danger">
+                    <div class="card-body">
+                        <h6 class="card-title mb-0">Deceased<i class="fa fa-viruses float-right"></i></h6>
+                        <h3 class="card-text mb-0">{{cardd.deceased_cases}}</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-12">
+                <div class="card shadow">
+                    <div class="card-body ">
+                        <div class="d-flex align-items-center justify-content-center">
+                            <div class="p-3 px-4 alert-success rounded">
+                                <i class="fas fa-syringe" style="font-size: 22px;"></i>
+                            </div>
+                            <div class="ml-3">
+                                <h5 class="mb-1"> Vaccinated</h5>
+                                <h3 class="mb-0">{{cardd.vaccinated_cases}}</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% if district %}
+        <div class="row mt-5" style="overflow-y:scroll; height:400px;">
+            <table class="table table-hover">
+                <thead class="bg-dark text-white">
+                    <tr>
+                        <th scope=" col ">District</th>
+                        <th scope="col ">Active</th>
+                        <th scope="col ">Recovered</th>
+                        <th scope="col ">Deceased</th>
+                        <th scope="col ">Confirmed</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    {% for dis in district | reverse %}
+                    <tr>
+                        <th scope="row " class="text-primary ">{{dis.district_name}}</th>
+                        <td>{{dis.active_cases}}</td>
+                        <td>{{dis.recovered_cases}}</td>
+                        <td>{{dis.deceased_cases}}</td>
+                        <td>{{dis.confirmd_cases}}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        {% else %}
+        <div class="row mt-5" style="overflow-y:scroll; height:400px;">
+            <table class="table table-hover">
+                <thead class="bg-dark text-white">
+                    <tr>
+                        <th scope=" col ">Region</th>
+                        <th scope="col ">Total</th>
+                        <th scope="col ">Active</th>
+                        <th scope="col ">Recovered</th>
+                        <th scope="col ">Deceased</th>
+                        <th scope="col ">Vaccinated</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    {% for state in statedata | reverse %}
+                    <tr>
+                        <th scope="row " class="text-primary ">{{state.state_name}}</th>
+                        <td>{{state.total_cases}}</td>
+                        <td>{{state.active_cases}}</td>
+                        <td>{{state.recovered_cases}}</td>
+                        <td>{{state.deceased_cases}}</td>
+                        <td>{{state.vaccinated_cases}}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        {% endif %}
+
+        <br>
+        <br>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous "></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js "></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous "></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin="anonymous "></script>
+
+</html>
