@@ -4,3 +4,4 @@ apscheduler
 datetime
 pandas
 gunicorn
+requests
