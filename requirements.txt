@@ -3,3 +3,4 @@ flask-sqlalchemy
 apscheduler
 datetime
 pandas
+gunicorn
