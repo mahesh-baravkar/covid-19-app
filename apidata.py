@@ -59,7 +59,7 @@ def DistrictsData():
                     district_table = District(district_name=dis,active_cases=int(datadistrict[state]['districtData'][dis]['active']),confirmd_cases=int(datadistrict[state]['districtData'][dis]['confirmed']),deceased_cases=int(datadistrict[state]['districtData'][dis]['deceased']), recovered_cases=int(datadistrict[state]['districtData'][dis]['recovered']))
                     district_table.districts = state_md
                     db.session.add(district_table)
-                    db.session.commit()
+                    db.session.commit()                  
     except:
         raise Exception("Data not Found.")
     print(time.time()-start_time)
