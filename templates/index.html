@@ -56,7 +56,7 @@
                 <div class="card mt-3 border border-success">
                     <div class="card-body">
                         <h6 class="card-title mb-0">Total<i class="fa fa-sort-up float-right"></i> </h6>
-                        <h3 class="card-text mb-0"> {{cardd.total_cases}}</h3>
+                        <h3 class="card-text mb-0"> {{"{:,}".format(cardd.total_cases)}}</h3>
                     </div>
                 </div>
             </div>
@@ -64,7 +64,7 @@
                 <div class="card mt-3 border border-primary">
                     <div class="card-body">
                         <h6 class="card-title mb-0">Active<i class="fa fa-circle text-success float-right"></i></h6>
-                        <h3 class="card-text mb-0">{{cardd.active_cases}}</h3>
+                        <h3 class="card-text mb-0">{{"{:,}".format(cardd.active_cases)}}</h3>
 
                     </div>
                 </div>
@@ -73,7 +73,7 @@
                 <div class="card mt-3 border border-warning">
                     <div class="card-body">
                         <h6 class="card-title mb-0">Recovered<i class="fa fa-check float-right"></i></h6>
-                        <h3 class="card-text mb-0">{{cardd.recovered_cases}}</h3>
+                        <h3 class="card-text mb-0">{{"{:,}".format(cardd.recovered_cases)}}</h3>
 
                     </div>
                 </div>
@@ -82,7 +82,7 @@
                 <div class="card mt-3 border border-danger">
                     <div class="card-body">
                         <h6 class="card-title mb-0">Deceased<i class="fa fa-viruses float-right"></i></h6>
-                        <h3 class="card-text mb-0">{{cardd.deceased_cases}}</h3>
+                        <h3 class="card-text mb-0">{{"{:,}".format(cardd.deceased_cases)}}</h3>
                     </div>
                 </div>
             </div>
@@ -97,7 +97,7 @@
                             </div>
                             <div class="ml-3">
                                 <h5 class="mb-1"> Vaccinated</h5>
-                                <h3 class="mb-0">{{cardd.vaccinated_cases}}</h3>
+                                <h3 class="mb-0">{{"{:,}".format(cardd.vaccinated_cases)}}</h3>
                             </div>
                         </div>
                     </div>
@@ -120,11 +120,11 @@
                 <tbody>
                     {% for dis in district | reverse %}
                     <tr>
-                        <th scope="row " class="text-primary ">{{dis.district_name}}</th>
-                        <td>{{dis.active_cases}}</td>
-                        <td>{{dis.recovered_cases}}</td>
-                        <td>{{dis.deceased_cases}}</td>
-                        <td>{{dis.confirmd_cases}}</td>
+                        <th scope="row " class="text-primary">{{dis.district_name}}</th>
+                        <td>{{ "{:,}".format(dis.active_cases) }}</td>
+                        <td>{{"{:,}".format(dis.recovered_cases)}}</td>
+                        <td>{{"{:,}".format(dis.deceased_cases)}}</td>
+                        <td>{{"{:,}".format(dis.confirmd_cases)}}</td>
                     </tr>
                     {% endfor %}
                 </tbody>

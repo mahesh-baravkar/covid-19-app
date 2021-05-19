@@ -12,7 +12,18 @@ def home():
             stateFD = State.query.filter_by(state_name=request.form.get('dropdown')).order_by(State.id.desc()).first()
             district = District.query.filter_by(state_id=stateFD.id).order_by(District.id.desc())
             return render_template("index.html", cardd=stateFD, district=district, selected=request.form.get('dropdown'), dropdownval=districtsValueOption.values()) 
-    
     country = Country.query.order_by(Country.id.desc()).first()
     state = State.query.order_by(State.id.desc()).limit(36)
     return render_template("index.html", cardd= country, statedata=state, dropdownval=districtsValueOption.values()) 
+
+
+# @app.route('/pdb')
+# def pdb():
+#    """Enter python debugger in terminal"""
+
+#    import sys
+#    print("\n'/pdb' endpoint hit. Dropping you into python debugger. globals:")
+#    print("%s\n" % dir(sys.modules[__name__]))
+#    import pdb; pdb.set_trace()
+
+#    return 'After PDB debugging session, now execution continues...'
