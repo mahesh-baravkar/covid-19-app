@@ -10,3 +10,120 @@
 2021-05-19 13:42:25,433:INFO:District Data Added in 28.350547790527344
 2021-05-19 13:42:25,435:INFO:Scheduler has been shut down
 2021-05-19 13:42:25,435:INFO:Scheduler has been shut down
+2021-05-19 13:43:14,448:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-19 13:43:14,448:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-19 13:43:14,449:INFO:Added job "CountrynStateData" to job store "default"
+2021-05-19 13:43:14,449:INFO:Scheduler started
+2021-05-19 13:43:14,449:INFO:Added job "DistrictsData" to job store "default"
+2021-05-19 13:43:14,450:INFO:Scheduler started
+2021-05-19 13:43:14,459:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-19 13:43:14,461:INFO: * Restarting with stat
+2021-05-19 13:43:15,699:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-19 13:43:15,699:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-19 13:43:15,700:INFO:Added job "CountrynStateData" to job store "default"
+2021-05-19 13:43:15,700:INFO:Scheduler started
+2021-05-19 13:43:15,700:INFO:Added job "DistrictsData" to job store "default"
+2021-05-19 13:43:15,700:INFO:Scheduler started
+2021-05-19 13:43:15,708:WARNING: * Debugger is active!
+2021-05-19 13:43:15,709:INFO: * Debugger PIN: 132-433-038
+2021-05-19 13:43:16,139:INFO:127.0.0.1 - - [19/May/2021 13:43:16] "POST / HTTP/1.1" 200 -
+2021-05-19 13:43:18,112:INFO:127.0.0.1 - - [19/May/2021 13:43:18] "POST / HTTP/1.1" 200 -
+2021-05-19 13:43:27,661:INFO:127.0.0.1 - - [19/May/2021 13:43:27] "POST / HTTP/1.1" 200 -
+2021-05-19 13:43:29,225:INFO:127.0.0.1 - - [19/May/2021 13:43:29] "POST / HTTP/1.1" 200 -
+2021-05-19 13:43:32,559:INFO:127.0.0.1 - - [19/May/2021 13:43:32] "POST / HTTP/1.1" 200 -
+2021-05-19 13:43:36,054:INFO:127.0.0.1 - - [19/May/2021 13:43:36] "POST / HTTP/1.1" 200 -
+2021-05-19 13:43:42,321:INFO:127.0.0.1 - - [19/May/2021 13:43:42] "POST / HTTP/1.1" 200 -
+2021-05-19 13:45:08,110:INFO:127.0.0.1 - - [19/May/2021 13:45:08] "POST / HTTP/1.1" 200 -
+2021-05-19 13:45:10,415:INFO:127.0.0.1 - - [19/May/2021 13:45:10] "POST / HTTP/1.1" 200 -
+2021-05-19 13:45:14,205:INFO:127.0.0.1 - - [19/May/2021 13:45:14] "POST / HTTP/1.1" 200 -
+2021-05-19 13:45:17,378:INFO:127.0.0.1 - - [19/May/2021 13:45:17] "POST / HTTP/1.1" 200 -
+2021-05-19 13:45:43,151:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-19 13:45:43,151:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-19 13:45:43,154:INFO:Added job "CountrynStateData" to job store "default"
+2021-05-19 13:45:43,154:INFO:Scheduler started
+2021-05-19 13:45:43,155:INFO:Added job "DistrictsData" to job store "default"
+2021-05-19 13:45:43,155:INFO:Scheduler started
+2021-05-19 13:45:43,156:INFO:Scheduler has been shut down
+2021-05-19 13:45:43,156:INFO:Scheduler has been shut down
+2021-05-19 13:46:04,324:INFO: * Detected change in '/home/cueitadmin/covid-19/apidata.py', reloading
+2021-05-19 13:46:04,326:INFO:Scheduler has been shut down
+2021-05-19 13:46:04,327:INFO:Scheduler has been shut down
+2021-05-19 13:46:04,507:INFO: * Restarting with stat
+2021-05-19 13:46:10,659:INFO:Country Data Added in 4.91427755355835
+2021-05-19 13:46:16,546:INFO:Country Data Added in 7.336168050765991
+2021-05-19 13:47:00,522:INFO:District Data Added in 43.97584128379822
+2021-05-19 13:47:00,602:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-19 13:47:00,602:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-19 13:47:00,602:INFO:Added job "CountrynStateData" to job store "default"
+2021-05-19 13:47:00,602:INFO:Scheduler started
+2021-05-19 13:47:00,603:INFO:Added job "DistrictsData" to job store "default"
+2021-05-19 13:47:00,603:INFO:Scheduler started
+2021-05-19 13:47:06,472:INFO:Country Data Added in 5.8676371574401855
+2021-05-19 13:47:06,939:INFO:District Data Added in 56.27865409851074
+2021-05-19 13:47:07,019:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-19 13:47:07,019:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-19 13:47:07,019:INFO:Added job "CountrynStateData" to job store "default"
+2021-05-19 13:47:07,019:INFO:Scheduler started
+2021-05-19 13:47:07,020:INFO:Added job "DistrictsData" to job store "default"
+2021-05-19 13:47:07,020:INFO:Scheduler started
+2021-05-19 13:47:07,028:WARNING: * Debugger is active!
+2021-05-19 13:47:07,028:INFO: * Debugger PIN: 132-433-038
+2021-05-19 13:47:07,364:INFO:127.0.0.1 - - [19/May/2021 13:47:07] "POST / HTTP/1.1" 200 -
+2021-05-19 13:47:07,369:INFO:127.0.0.1 - - [19/May/2021 13:47:07] "POST / HTTP/1.1" 200 -
+2021-05-19 13:47:07,372:INFO:127.0.0.1 - - [19/May/2021 13:47:07] "POST / HTTP/1.1" 200 -
+2021-05-19 13:47:07,378:INFO:127.0.0.1 - - [19/May/2021 13:47:07] "POST / HTTP/1.1" 200 -
+2021-05-19 13:47:07,387:INFO:127.0.0.1 - - [19/May/2021 13:47:07] "POST / HTTP/1.1" 200 -
+2021-05-19 13:47:07,388:INFO:127.0.0.1 - - [19/May/2021 13:47:07] "POST / HTTP/1.1" 200 -
+2021-05-19 13:47:07,389:INFO:127.0.0.1 - - [19/May/2021 13:47:07] "POST / HTTP/1.1" 200 -
+2021-05-19 13:47:07,390:INFO:127.0.0.1 - - [19/May/2021 13:47:07] "POST / HTTP/1.1" 200 -
+2021-05-19 13:47:33,440:INFO:District Data Added in 26.967719078063965
+2021-05-19 13:47:33,442:INFO:Scheduler has been shut down
+2021-05-19 13:47:33,443:INFO:Scheduler has been shut down
+2021-05-19 13:47:42,276:INFO:127.0.0.1 - - [19/May/2021 13:47:42] "POST / HTTP/1.1" 200 -
+2021-05-19 13:48:24,196:INFO: * Detected change in '/home/cueitadmin/covid-19/config.py', reloading
+2021-05-19 13:48:24,197:INFO:Scheduler has been shut down
+2021-05-19 13:48:24,197:INFO:Scheduler has been shut down
+2021-05-19 13:48:24,340:INFO: * Restarting with stat
+2021-05-19 13:48:30,637:INFO:Country Data Added in 5.0960869789123535
+2021-05-19 13:48:42,802:INFO:Scheduler has been shut down
+2021-05-19 13:48:42,803:INFO:Scheduler has been shut down
+2021-05-19 13:48:50,487:INFO:Country Data Added in 4.483684062957764
+2021-05-19 13:49:17,485:INFO:Country Data Added in 9.136535167694092
+2021-05-19 13:49:44,413:INFO:District Data Added in 26.927733421325684
+2021-05-19 13:49:44,482:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-19 13:49:44,482:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-19 13:49:44,483:INFO:Added job "CountrynStateData" to job store "default"
+2021-05-19 13:49:44,483:INFO:Scheduler started
+2021-05-19 13:49:44,484:INFO:Added job "DistrictsData" to job store "default"
+2021-05-19 13:49:44,484:INFO:Scheduler started
+2021-05-19 13:49:48,626:INFO:Scheduler has been shut down
+2021-05-19 13:49:48,627:INFO:Scheduler has been shut down
+2021-05-19 13:51:44,098:INFO:Country Data Added in 6.493375539779663
+2021-05-19 13:52:11,202:INFO:District Data Added in 27.10292911529541
+2021-05-19 13:52:11,281:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-19 13:52:11,281:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-19 13:52:11,281:INFO:Added job "CountrynStateData" to job store "default"
+2021-05-19 13:52:11,281:INFO:Scheduler started
+2021-05-19 13:52:11,282:INFO:Added job "DistrictsData" to job store "default"
+2021-05-19 13:52:11,282:INFO:Scheduler started
+2021-05-19 13:52:15,642:INFO:Scheduler has been shut down
+2021-05-19 13:52:15,642:INFO:Scheduler has been shut down
+2021-05-19 13:53:27,945:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-19 13:53:27,946:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-19 13:53:27,946:INFO:Added job "CountrynStateData" to job store "default"
+2021-05-19 13:53:27,946:INFO:Scheduler started
+2021-05-19 13:53:27,947:INFO:Added job "DistrictsData" to job store "default"
+2021-05-19 13:53:27,947:INFO:Scheduler started
+2021-05-19 13:53:27,958:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-19 13:53:27,961:INFO: * Restarting with stat
+2021-05-19 13:53:29,233:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-19 13:53:29,233:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-19 13:53:29,233:INFO:Added job "CountrynStateData" to job store "default"
+2021-05-19 13:53:29,233:INFO:Scheduler started
+2021-05-19 13:53:29,234:INFO:Added job "DistrictsData" to job store "default"
+2021-05-19 13:53:29,234:INFO:Scheduler started
+2021-05-19 13:53:29,244:WARNING: * Debugger is active!
+2021-05-19 13:53:29,244:INFO: * Debugger PIN: 132-433-038
+2021-05-19 13:53:30,299:INFO:127.0.0.1 - - [19/May/2021 13:53:30] "POST / HTTP/1.1" 200 -
+2021-05-19 13:53:34,533:INFO:127.0.0.1 - - [19/May/2021 13:53:34] "POST / HTTP/1.1" 200 -
+2021-05-19 13:53:37,794:INFO:127.0.0.1 - - [19/May/2021 13:53:37] "POST / HTTP/1.1" 200 -
