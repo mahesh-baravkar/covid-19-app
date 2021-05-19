@@ -1,0 +1,12 @@
+2021-05-19 13:41:34,776:INFO:Country Data Added in 6.492783069610596
+2021-05-19 13:41:56,922:INFO:District Data Added in 28.637369871139526
+2021-05-19 13:41:57,073:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-19 13:41:57,073:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-19 13:41:57,074:INFO:Added job "CountrynStateData" to job store "default"
+2021-05-19 13:41:57,074:INFO:Scheduler started
+2021-05-19 13:41:57,075:INFO:Added job "DistrictsData" to job store "default"
+2021-05-19 13:41:57,075:INFO:Scheduler started
+2021-05-19 13:42:03,582:INFO:Country Data Added in 6.506587266921997
+2021-05-19 13:42:25,433:INFO:District Data Added in 28.350547790527344
+2021-05-19 13:42:25,435:INFO:Scheduler has been shut down
+2021-05-19 13:42:25,435:INFO:Scheduler has been shut down
