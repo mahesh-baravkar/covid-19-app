@@ -14,6 +14,10 @@ def home():
             return render_template("index.html", cardd=stateFD, district=district, selected=request.form.get('dropdown'), dropdownval=districtsValueOption.values()) 
     country = Country.query.order_by(Country.id.desc()).first()
     state = State.query.order_by(State.id.desc()).limit(36)
+    
+    # assert len(country) < 0, "Data is available"
+    # import pdb; pdb.set_trace()
+
     return render_template("index.html", cardd= country, statedata=state, dropdownval=districtsValueOption.values()) 
 
 

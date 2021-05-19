@@ -17,8 +17,8 @@ scheduler2 = BackgroundScheduler(daemon=True)
 import routes
 from apidata import  CountrynStateData, DistrictsData
 
-scheduler1.add_job(func= CountrynStateData, trigger="interval", minutes=60)
-scheduler2.add_job(func= DistrictsData, trigger="interval", minutes=62)
+scheduler1.add_job(func= CountrynStateData, trigger="interval", minutes=10)
+scheduler2.add_job(func= DistrictsData, trigger="interval", minutes=13)
 scheduler1.start()
 scheduler2.start()
 atexit.register(lambda: scheduler1.shutdown())

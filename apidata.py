@@ -1,7 +1,7 @@
 import requests 
 import pandas as pd
 # import threading
-
+import logging
 
 from requests.sessions import session
 
@@ -12,6 +12,7 @@ import time
 
 districtsValueOption = {'AN': 'Andaman and Nicobar Islands', 'AP': 'Andhra Pradesh', 'AR': 'Arunachal Pradesh', 'AS': 'Assam', 'BR': 'Bihar', 'CH': 'Chandigarh', 'CT': 'Chhattisgarh', 'DL': 'Delhi', 'DN': 'Dadra and Nagar Haveli and Daman and Diu', 'GA': 'Goa', 'GJ': 'Gujarat', 'HP': 'Himachal Pradesh', 'HR': 'Haryana', 'JH': 'Jharkhand', 'JK': 'Jammu and Kashmir', 'KA': 'Karnataka', 'KL': 'Kerala', 'LA': 'Ladakh', 'LD': 'Lakshadweep', 'MH': 'Maharashtra', 'ML': 'Meghalaya', 'MN': 'Manipur', 'MP': 'Madhya Pradesh', 'MZ': 'Mizoram', 'NL': 'Nagaland', 'OR': 'Odisha', 'PB': 'Punjab', 'PY': 'Puducherry', 'RJ': 'Rajasthan', 'SK': 'Sikkim', 'TG': 'Telangana', 'TN': 'Tamil Nadu', 'TR': 'Tripura', 'UP': 'Uttar Pradesh', 'UT': 'Uttarakhand', 'WB': 'West Bengal'}
 
+logging.basicConfig(filename="datasync.log", level=logging.INFO, format='%(asctime)s:%(levelname)s:%(message)s')
 
 def CountrynStateData():
     print('Loaded CountryState')
@@ -43,6 +44,7 @@ def CountrynStateData():
             
     except:
         raise Exception("Data Not Found")
+    logging.info("Country Data Added in %s"%(time.time()-start_time))
     print(time.time()-start_time)
 
 
@@ -62,6 +64,8 @@ def DistrictsData():
                     db.session.commit()
     except:
         raise Exception("Data not Found.")
+
+    logging.info("District Data Added in %s"%(time.time()-start_time))
     print(time.time()-start_time)
         
         
