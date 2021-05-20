@@ -1,7 +1,7 @@
-flask
-flask-sqlalchemy
-apscheduler
 datetime
-pandas
-gunicorn
-requests
+Flask==2.0.0
+APScheduler==3.7.0
+Flask-SQLAlchemy==2.5.1
+gunicorn==20.1.0
+pandas==1.1.5
+requests==2.25.1

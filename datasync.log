@@ -127,3 +127,25 @@
 2021-05-19 13:53:30,299:INFO:127.0.0.1 - - [19/May/2021 13:53:30] "POST / HTTP/1.1" 200 -
 2021-05-19 13:53:34,533:INFO:127.0.0.1 - - [19/May/2021 13:53:34] "POST / HTTP/1.1" 200 -
 2021-05-19 13:53:37,794:INFO:127.0.0.1 - - [19/May/2021 13:53:37] "POST / HTTP/1.1" 200 -
+2021-05-19 14:23:27,947:INFO:Running job "CountrynStateData (trigger: interval[0:30:00], next run at: 2021-05-19 14:23:27 IST)" (scheduled at 2021-05-19 14:23:27.945659+05:30)
+2021-05-19 14:23:29,234:INFO:Running job "CountrynStateData (trigger: interval[0:30:00], next run at: 2021-05-19 14:23:29 IST)" (scheduled at 2021-05-19 14:23:29.232904+05:30)
+2021-05-19 14:23:32,290:INFO:Country Data Added in 4.340909719467163
+2021-05-19 14:23:32,290:INFO:Job "CountrynStateData (trigger: interval[0:30:00], next run at: 2021-05-19 14:53:27 IST)" executed successfully
+2021-05-19 14:23:33,682:INFO:Country Data Added in 4.44745135307312
+2021-05-19 14:23:33,683:INFO:Job "CountrynStateData (trigger: interval[0:30:00], next run at: 2021-05-19 14:53:29 IST)" executed successfully
+2021-05-19 14:26:27,946:INFO:Running job "DistrictsData (trigger: interval[0:33:00], next run at: 2021-05-19 14:26:27 IST)" (scheduled at 2021-05-19 14:26:27.946052+05:30)
+2021-05-19 14:26:29,234:INFO:Running job "DistrictsData (trigger: interval[0:33:00], next run at: 2021-05-19 14:26:29 IST)" (scheduled at 2021-05-19 14:26:29.233265+05:30)
+2021-05-19 14:27:17,831:INFO:District Data Added in 49.88382530212402
+2021-05-19 14:27:17,833:INFO:Job "DistrictsData (trigger: interval[0:33:00], next run at: 2021-05-19 14:59:27 IST)" executed successfully
+2021-05-19 14:27:22,110:INFO:District Data Added in 52.875739336013794
+2021-05-19 14:27:22,111:INFO:Job "DistrictsData (trigger: interval[0:33:00], next run at: 2021-05-19 14:59:29 IST)" executed successfully
+2021-05-19 14:47:25,849:INFO: * Detected change in '/home/cueitadmin/covid-19/config.py', reloading
+2021-05-19 14:47:25,850:INFO:Scheduler has been shut down
+2021-05-19 14:47:25,851:INFO:Scheduler has been shut down
+2021-05-19 14:47:25,994:INFO: * Restarting with stat
+2021-05-19 14:47:27,591:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-19 14:47:27,591:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-19 14:47:27,592:INFO:Added job "CountrynStateData" to job store "default"
+2021-05-19 14:47:27,592:INFO:Scheduler started
+2021-05-19 14:47:27,872:INFO:Scheduler has been shut down
+2021-05-19 14:47:27,873:INFO:Scheduler has been shut down
