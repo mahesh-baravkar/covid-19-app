@@ -11,7 +11,7 @@ class ProductionConfig(Config):
 class DevelopmentConfig(Config):
     DEBUG = True
     SQLALCHEMY_TRACK_MODIFICATIONS = True
-
+    TESTING = False
 class TestingConfig(Config):
     SQLALCHEMY_TRACK_MODIFICATIONS = True
     TESTING = True

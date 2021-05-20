@@ -418,3 +418,469 @@
 2021-05-20 11:48:56,981:INFO: * Debugger PIN: 132-433-038
 2021-05-20 11:49:06,359:INFO:Scheduler has been shut down
 2021-05-20 11:49:06,360:INFO:Scheduler has been shut down
+2021-05-20 12:09:19,672:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 12:09:19,673:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 12:09:19,673:INFO:Added job "CountrynStateData" to job store "default"
+2021-05-20 12:09:19,673:INFO:Scheduler started
+2021-05-20 12:09:19,674:INFO:Added job "DistrictsData" to job store "default"
+2021-05-20 12:09:19,674:INFO:Scheduler started
+2021-05-20 12:09:19,676:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-20 12:09:19,940:INFO:127.0.0.1 - - [20/May/2021 12:09:19] "GET / HTTP/1.1" 200 -
+2021-05-20 12:09:26,338:INFO:Scheduler has been shut down
+2021-05-20 12:09:26,339:INFO:Scheduler has been shut down
+2021-05-20 12:09:37,327:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 12:09:37,328:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 12:09:37,328:INFO:Added job "CountrynStateData" to job store "default"
+2021-05-20 12:09:37,328:INFO:Scheduler started
+2021-05-20 12:09:37,329:INFO:Added job "DistrictsData" to job store "default"
+2021-05-20 12:09:37,329:INFO:Scheduler started
+2021-05-20 12:09:37,330:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-20 12:09:40,393:INFO:Scheduler has been shut down
+2021-05-20 12:09:40,394:INFO:Scheduler has been shut down
+2021-05-20 12:10:45,402:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 12:10:45,402:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 12:10:45,402:INFO:Added job "CountrynStateData" to job store "default"
+2021-05-20 12:10:45,403:INFO:Scheduler started
+2021-05-20 12:10:45,403:INFO:Added job "DistrictsData" to job store "default"
+2021-05-20 12:10:45,404:INFO:Scheduler started
+2021-05-20 12:10:45,406:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-20 12:10:54,671:INFO:Scheduler has been shut down
+2021-05-20 12:10:54,672:INFO:Scheduler has been shut down
+2021-05-20 12:11:13,832:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 12:11:13,832:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 12:11:13,833:INFO:Added job "CountrynStateData" to job store "default"
+2021-05-20 12:11:13,833:INFO:Scheduler started
+2021-05-20 12:11:13,834:INFO:Added job "DistrictsData" to job store "default"
+2021-05-20 12:11:13,834:INFO:Scheduler started
+2021-05-20 12:11:13,836:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-20 12:11:15,762:INFO:Scheduler has been shut down
+2021-05-20 12:11:15,764:INFO:Scheduler has been shut down
+2021-05-20 12:11:44,253:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 12:11:44,254:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 12:11:44,254:INFO:Added job "CountrynStateData" to job store "default"
+2021-05-20 12:11:44,254:INFO:Scheduler started
+2021-05-20 12:11:44,255:INFO:Added job "DistrictsData" to job store "default"
+2021-05-20 12:11:44,255:INFO:Scheduler started
+2021-05-20 12:11:44,256:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-20 12:11:46,342:INFO:Scheduler has been shut down
+2021-05-20 12:11:46,343:INFO:Scheduler has been shut down
+2021-05-20 12:11:51,635:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 12:11:51,636:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 12:11:51,636:INFO:Added job "CountrynStateData" to job store "default"
+2021-05-20 12:11:51,636:INFO:Scheduler started
+2021-05-20 12:11:51,637:INFO:Added job "DistrictsData" to job store "default"
+2021-05-20 12:11:51,637:INFO:Scheduler started
+2021-05-20 12:11:51,639:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-20 12:11:52,407:ERROR:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1771, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 717, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such table: country
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/flask/app.py", line 2051, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/flask/app.py", line 1501, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/flask/app.py", line 1499, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/flask/app.py", line 1485, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/cueitadmin/covid-19/routes.py", line 15, in home
+    country = Country.query.order_by(Country.id.desc()).first()
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 2750, in first
+    return self.limit(1)._iter().first()
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 2837, in _iter
+    execution_options={"_sa_orm_load_options": self.load_options},
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 1677, in execute
+    result = conn._execute_20(statement, params or {}, execution_options)
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1582, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/sql/elements.py", line 330, in _execute_on_connection
+    self, multiparams, params, execution_options
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1461, in _execute_clauseelement
+    cache_hit=cache_hit,
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1814, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1995, in _handle_dbapi_exception
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1771, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 717, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: country
+[SQL: SELECT country.id AS country_id, country.date_added AS country_date_added, country.country_name AS country_country_name, country.total_cases AS country_total_cases, country.active_cases AS country_active_cases, country.recovered_cases AS country_recovered_cases, country.deceased_cases AS country_deceased_cases, country.vaccinated_cases AS country_vaccinated_cases 
+FROM country ORDER BY country.id DESC
+ LIMIT ? OFFSET ?]
+[parameters: (1, 0)]
+(Background on this error at: http://sqlalche.me/e/14/e3q8)
+2021-05-20 12:11:52,412:INFO:127.0.0.1 - - [20/May/2021 12:11:52] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2021-05-20 12:11:52,942:ERROR:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1771, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 717, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such table: country
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/flask/app.py", line 2051, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/flask/app.py", line 1501, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/flask/app.py", line 1499, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/flask/app.py", line 1485, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/cueitadmin/covid-19/routes.py", line 15, in home
+    country = Country.query.order_by(Country.id.desc()).first()
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 2750, in first
+    return self.limit(1)._iter().first()
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 2837, in _iter
+    execution_options={"_sa_orm_load_options": self.load_options},
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 1677, in execute
+    result = conn._execute_20(statement, params or {}, execution_options)
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1582, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/sql/elements.py", line 330, in _execute_on_connection
+    self, multiparams, params, execution_options
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1461, in _execute_clauseelement
+    cache_hit=cache_hit,
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1814, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1995, in _handle_dbapi_exception
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1771, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 717, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: country
+[SQL: SELECT country.id AS country_id, country.date_added AS country_date_added, country.country_name AS country_country_name, country.total_cases AS country_total_cases, country.active_cases AS country_active_cases, country.recovered_cases AS country_recovered_cases, country.deceased_cases AS country_deceased_cases, country.vaccinated_cases AS country_vaccinated_cases 
+FROM country ORDER BY country.id DESC
+ LIMIT ? OFFSET ?]
+[parameters: (1, 0)]
+(Background on this error at: http://sqlalche.me/e/14/e3q8)
+2021-05-20 12:11:52,943:INFO:127.0.0.1 - - [20/May/2021 12:11:52] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2021-05-20 12:11:53,236:ERROR:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1771, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 717, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such table: country
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/flask/app.py", line 2051, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/flask/app.py", line 1501, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/flask/app.py", line 1499, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/flask/app.py", line 1485, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/cueitadmin/covid-19/routes.py", line 15, in home
+    country = Country.query.order_by(Country.id.desc()).first()
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 2750, in first
+    return self.limit(1)._iter().first()
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 2837, in _iter
+    execution_options={"_sa_orm_load_options": self.load_options},
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 1677, in execute
+    result = conn._execute_20(statement, params or {}, execution_options)
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1582, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/sql/elements.py", line 330, in _execute_on_connection
+    self, multiparams, params, execution_options
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1461, in _execute_clauseelement
+    cache_hit=cache_hit,
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1814, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1995, in _handle_dbapi_exception
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1771, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 717, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: country
+[SQL: SELECT country.id AS country_id, country.date_added AS country_date_added, country.country_name AS country_country_name, country.total_cases AS country_total_cases, country.active_cases AS country_active_cases, country.recovered_cases AS country_recovered_cases, country.deceased_cases AS country_deceased_cases, country.vaccinated_cases AS country_vaccinated_cases 
+FROM country ORDER BY country.id DESC
+ LIMIT ? OFFSET ?]
+[parameters: (1, 0)]
+(Background on this error at: http://sqlalche.me/e/14/e3q8)
+2021-05-20 12:11:53,238:INFO:127.0.0.1 - - [20/May/2021 12:11:53] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2021-05-20 12:11:53,448:ERROR:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1771, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 717, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such table: country
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/flask/app.py", line 2051, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/flask/app.py", line 1501, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/flask/app.py", line 1499, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/flask/app.py", line 1485, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/cueitadmin/covid-19/routes.py", line 15, in home
+    country = Country.query.order_by(Country.id.desc()).first()
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 2750, in first
+    return self.limit(1)._iter().first()
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 2837, in _iter
+    execution_options={"_sa_orm_load_options": self.load_options},
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 1677, in execute
+    result = conn._execute_20(statement, params or {}, execution_options)
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1582, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/sql/elements.py", line 330, in _execute_on_connection
+    self, multiparams, params, execution_options
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1461, in _execute_clauseelement
+    cache_hit=cache_hit,
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1814, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1995, in _handle_dbapi_exception
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1771, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 717, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: country
+[SQL: SELECT country.id AS country_id, country.date_added AS country_date_added, country.country_name AS country_country_name, country.total_cases AS country_total_cases, country.active_cases AS country_active_cases, country.recovered_cases AS country_recovered_cases, country.deceased_cases AS country_deceased_cases, country.vaccinated_cases AS country_vaccinated_cases 
+FROM country ORDER BY country.id DESC
+ LIMIT ? OFFSET ?]
+[parameters: (1, 0)]
+(Background on this error at: http://sqlalche.me/e/14/e3q8)
+2021-05-20 12:11:53,449:INFO:127.0.0.1 - - [20/May/2021 12:11:53] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2021-05-20 12:11:57,517:ERROR:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1771, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 717, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such table: country
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/flask/app.py", line 2051, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/flask/app.py", line 1501, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/flask/app.py", line 1499, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/flask/app.py", line 1485, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/cueitadmin/covid-19/routes.py", line 15, in home
+    country = Country.query.order_by(Country.id.desc()).first()
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 2750, in first
+    return self.limit(1)._iter().first()
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 2837, in _iter
+    execution_options={"_sa_orm_load_options": self.load_options},
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 1677, in execute
+    result = conn._execute_20(statement, params or {}, execution_options)
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1582, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/sql/elements.py", line 330, in _execute_on_connection
+    self, multiparams, params, execution_options
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1461, in _execute_clauseelement
+    cache_hit=cache_hit,
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1814, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1995, in _handle_dbapi_exception
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1771, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 717, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: country
+[SQL: SELECT country.id AS country_id, country.date_added AS country_date_added, country.country_name AS country_country_name, country.total_cases AS country_total_cases, country.active_cases AS country_active_cases, country.recovered_cases AS country_recovered_cases, country.deceased_cases AS country_deceased_cases, country.vaccinated_cases AS country_vaccinated_cases 
+FROM country ORDER BY country.id DESC
+ LIMIT ? OFFSET ?]
+[parameters: (1, 0)]
+(Background on this error at: http://sqlalche.me/e/14/e3q8)
+2021-05-20 12:11:57,518:INFO:127.0.0.1 - - [20/May/2021 12:11:57] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2021-05-20 12:11:57,947:ERROR:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1771, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 717, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such table: country
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/flask/app.py", line 2051, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/flask/app.py", line 1501, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/flask/app.py", line 1499, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/flask/app.py", line 1485, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/cueitadmin/covid-19/routes.py", line 15, in home
+    country = Country.query.order_by(Country.id.desc()).first()
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 2750, in first
+    return self.limit(1)._iter().first()
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 2837, in _iter
+    execution_options={"_sa_orm_load_options": self.load_options},
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 1677, in execute
+    result = conn._execute_20(statement, params or {}, execution_options)
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1582, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/sql/elements.py", line 330, in _execute_on_connection
+    self, multiparams, params, execution_options
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1461, in _execute_clauseelement
+    cache_hit=cache_hit,
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1814, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1995, in _handle_dbapi_exception
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1771, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 717, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: country
+[SQL: SELECT country.id AS country_id, country.date_added AS country_date_added, country.country_name AS country_country_name, country.total_cases AS country_total_cases, country.active_cases AS country_active_cases, country.recovered_cases AS country_recovered_cases, country.deceased_cases AS country_deceased_cases, country.vaccinated_cases AS country_vaccinated_cases 
+FROM country ORDER BY country.id DESC
+ LIMIT ? OFFSET ?]
+[parameters: (1, 0)]
+(Background on this error at: http://sqlalche.me/e/14/e3q8)
+2021-05-20 12:11:57,948:INFO:127.0.0.1 - - [20/May/2021 12:11:57] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2021-05-20 12:11:58,105:ERROR:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1771, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 717, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such table: country
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/flask/app.py", line 2051, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/flask/app.py", line 1501, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/flask/app.py", line 1499, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/flask/app.py", line 1485, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/cueitadmin/covid-19/routes.py", line 15, in home
+    country = Country.query.order_by(Country.id.desc()).first()
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 2750, in first
+    return self.limit(1)._iter().first()
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 2837, in _iter
+    execution_options={"_sa_orm_load_options": self.load_options},
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 1677, in execute
+    result = conn._execute_20(statement, params or {}, execution_options)
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1582, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/sql/elements.py", line 330, in _execute_on_connection
+    self, multiparams, params, execution_options
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1461, in _execute_clauseelement
+    cache_hit=cache_hit,
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1814, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1995, in _handle_dbapi_exception
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1771, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 717, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: country
+[SQL: SELECT country.id AS country_id, country.date_added AS country_date_added, country.country_name AS country_country_name, country.total_cases AS country_total_cases, country.active_cases AS country_active_cases, country.recovered_cases AS country_recovered_cases, country.deceased_cases AS country_deceased_cases, country.vaccinated_cases AS country_vaccinated_cases 
+FROM country ORDER BY country.id DESC
+ LIMIT ? OFFSET ?]
+[parameters: (1, 0)]
+(Background on this error at: http://sqlalche.me/e/14/e3q8)
+2021-05-20 12:11:58,107:INFO:127.0.0.1 - - [20/May/2021 12:11:58] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2021-05-20 12:12:00,584:ERROR:Exception on / [POST]
+Traceback (most recent call last):
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1771, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 717, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such table: state
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/flask/app.py", line 2051, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/flask/app.py", line 1501, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/flask/app.py", line 1499, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/flask/app.py", line 1485, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/cueitadmin/covid-19/routes.py", line 12, in home
+    stateFD = State.query.filter_by(state_name=request.form.get('dropdown')).order_by(State.id.desc()).first()
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 2750, in first
+    return self.limit(1)._iter().first()
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 2837, in _iter
+    execution_options={"_sa_orm_load_options": self.load_options},
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 1677, in execute
+    result = conn._execute_20(statement, params or {}, execution_options)
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1582, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/sql/elements.py", line 330, in _execute_on_connection
+    self, multiparams, params, execution_options
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1461, in _execute_clauseelement
+    cache_hit=cache_hit,
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1814, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1995, in _handle_dbapi_exception
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1771, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/cueitadmin/.local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 717, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: state
+[SQL: SELECT state.id AS state_id, state.date_added AS state_date_added, state.state_name AS state_state_name, state.total_cases AS state_total_cases, state.active_cases AS state_active_cases, state.recovered_cases AS state_recovered_cases, state.deceased_cases AS state_deceased_cases, state.vaccinated_cases AS state_vaccinated_cases, state.country_id AS state_country_id 
+FROM state 
+WHERE state.state_name = ? ORDER BY state.id DESC
+ LIMIT ? OFFSET ?]
+[parameters: ('Andaman and Nicobar Islands', 1, 0)]
+(Background on this error at: http://sqlalche.me/e/14/e3q8)
+2021-05-20 12:12:00,585:INFO:127.0.0.1 - - [20/May/2021 12:12:00] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2021-05-20 12:12:02,608:INFO:Scheduler has been shut down
+2021-05-20 12:12:02,609:INFO:Scheduler has been shut down
+2021-05-20 12:12:19,490:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 12:12:19,491:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 12:12:19,491:INFO:Added job "CountrynStateData" to job store "default"
+2021-05-20 12:12:19,491:INFO:Scheduler started
+2021-05-20 12:12:19,492:INFO:Added job "DistrictsData" to job store "default"
+2021-05-20 12:12:19,492:INFO:Scheduler started
+2021-05-20 12:12:19,494:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-20 12:12:20,469:INFO:127.0.0.1 - - [20/May/2021 12:12:20] "POST / HTTP/1.1" 200 -
+2021-05-20 12:12:25,019:INFO:Scheduler has been shut down
+2021-05-20 12:12:25,020:INFO:Scheduler has been shut down
