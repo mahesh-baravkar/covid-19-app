@@ -149,3 +149,242 @@
 2021-05-19 14:47:27,592:INFO:Scheduler started
 2021-05-19 14:47:27,872:INFO:Scheduler has been shut down
 2021-05-19 14:47:27,873:INFO:Scheduler has been shut down
+2021-05-20 10:03:06,256:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 10:03:06,257:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 10:03:06,258:INFO:Added job "CountrynStateData" to job store "default"
+2021-05-20 10:03:06,258:INFO:Scheduler started
+2021-05-20 10:03:06,262:INFO:Added job "DistrictsData" to job store "default"
+2021-05-20 10:03:06,262:INFO:Scheduler started
+2021-05-20 10:03:06,274:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-20 10:03:06,276:INFO: * Restarting with stat
+2021-05-20 10:03:07,620:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 10:03:07,621:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 10:03:07,625:INFO:Added job "CountrynStateData" to job store "default"
+2021-05-20 10:03:07,625:INFO:Scheduler started
+2021-05-20 10:03:07,626:INFO:Added job "DistrictsData" to job store "default"
+2021-05-20 10:03:07,626:INFO:Scheduler started
+2021-05-20 10:03:07,634:WARNING: * Debugger is active!
+2021-05-20 10:03:07,635:INFO: * Debugger PIN: 132-433-038
+2021-05-20 10:03:21,232:INFO:127.0.0.1 - - [20/May/2021 10:03:21] "POST / HTTP/1.1" 200 -
+2021-05-20 10:03:25,462:INFO:127.0.0.1 - - [20/May/2021 10:03:25] "POST / HTTP/1.1" 200 -
+2021-05-20 10:03:29,437:INFO:Scheduler has been shut down
+2021-05-20 10:03:29,440:INFO:Scheduler has been shut down
+2021-05-20 10:26:24,337:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 10:26:24,337:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 10:26:24,338:INFO:Added job "CountrynStateData" to job store "default"
+2021-05-20 10:26:24,338:INFO:Scheduler started
+2021-05-20 10:26:24,338:INFO:Added job "DistrictsData" to job store "default"
+2021-05-20 10:26:24,338:INFO:Scheduler started
+2021-05-20 10:26:24,339:INFO:Scheduler has been shut down
+2021-05-20 10:26:24,339:INFO:Scheduler has been shut down
+2021-05-20 10:26:42,273:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 10:26:42,274:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 10:26:42,274:INFO:Added job "CountrynStateData" to job store "default"
+2021-05-20 10:26:42,275:INFO:Scheduler started
+2021-05-20 10:26:42,275:INFO:Added job "DistrictsData" to job store "default"
+2021-05-20 10:26:42,275:INFO:Scheduler started
+2021-05-20 10:26:42,276:INFO:Scheduler has been shut down
+2021-05-20 10:26:42,276:INFO:Scheduler has been shut down
+2021-05-20 10:27:12,020:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 10:27:12,020:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 10:27:12,020:INFO:Added job "CountrynStateData" to job store "default"
+2021-05-20 10:27:12,021:INFO:Scheduler started
+2021-05-20 10:27:12,021:INFO:Added job "DistrictsData" to job store "default"
+2021-05-20 10:27:12,021:INFO:Scheduler started
+2021-05-20 10:27:12,023:INFO:Scheduler has been shut down
+2021-05-20 10:27:12,023:INFO:Scheduler has been shut down
+2021-05-20 10:28:05,641:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 10:28:05,642:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 10:28:05,642:INFO:Added job "CountrynStateData" to job store "default"
+2021-05-20 10:28:05,642:INFO:Scheduler started
+2021-05-20 10:28:05,642:INFO:Added job "DistrictsData" to job store "default"
+2021-05-20 10:28:05,643:INFO:Scheduler started
+2021-05-20 10:28:05,670:INFO:Scheduler has been shut down
+2021-05-20 10:28:05,671:INFO:Scheduler has been shut down
+2021-05-20 10:28:50,274:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 10:28:50,274:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 10:28:50,274:INFO:Added job "CountrynStateData" to job store "default"
+2021-05-20 10:28:50,274:INFO:Scheduler started
+2021-05-20 10:28:50,275:INFO:Added job "DistrictsData" to job store "default"
+2021-05-20 10:28:50,275:INFO:Scheduler started
+2021-05-20 10:28:50,303:INFO:Scheduler has been shut down
+2021-05-20 10:28:50,304:INFO:Scheduler has been shut down
+2021-05-20 10:29:09,218:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 10:29:09,218:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 10:29:09,219:INFO:Added job "CountrynStateData" to job store "default"
+2021-05-20 10:29:09,219:INFO:Scheduler started
+2021-05-20 10:29:09,219:INFO:Added job "DistrictsData" to job store "default"
+2021-05-20 10:29:09,219:INFO:Scheduler started
+2021-05-20 10:29:09,252:INFO:Scheduler has been shut down
+2021-05-20 10:29:09,254:INFO:Scheduler has been shut down
+2021-05-20 10:29:30,648:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 10:29:30,649:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 10:29:30,649:INFO:Added job "CountrynStateData" to job store "default"
+2021-05-20 10:29:30,649:INFO:Scheduler started
+2021-05-20 10:29:30,650:INFO:Added job "DistrictsData" to job store "default"
+2021-05-20 10:29:30,650:INFO:Scheduler started
+2021-05-20 10:29:30,680:INFO:Scheduler has been shut down
+2021-05-20 10:29:30,682:INFO:Scheduler has been shut down
+2021-05-20 10:30:06,296:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 10:30:06,296:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 10:30:06,297:INFO:Added job "CountrynStateData" to job store "default"
+2021-05-20 10:30:06,297:INFO:Scheduler started
+2021-05-20 10:30:06,299:INFO:Added job "DistrictsData" to job store "default"
+2021-05-20 10:30:06,299:INFO:Scheduler started
+2021-05-20 10:30:06,322:INFO:Scheduler has been shut down
+2021-05-20 10:30:06,322:INFO:Scheduler has been shut down
+2021-05-20 10:36:06,850:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 10:36:06,850:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 10:36:06,851:INFO:Added job "CountrynStateData" to job store "default"
+2021-05-20 10:36:06,851:INFO:Scheduler started
+2021-05-20 10:36:06,852:INFO:Added job "DistrictsData" to job store "default"
+2021-05-20 10:36:06,852:INFO:Scheduler started
+2021-05-20 10:36:06,878:INFO:Scheduler has been shut down
+2021-05-20 10:36:06,879:INFO:Scheduler has been shut down
+2021-05-20 10:36:17,858:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 10:36:17,859:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 10:36:17,859:INFO:Added job "CountrynStateData" to job store "default"
+2021-05-20 10:36:17,859:INFO:Scheduler started
+2021-05-20 10:36:17,860:INFO:Added job "DistrictsData" to job store "default"
+2021-05-20 10:36:17,860:INFO:Scheduler started
+2021-05-20 10:36:17,887:INFO:Scheduler has been shut down
+2021-05-20 10:36:17,889:INFO:Scheduler has been shut down
+2021-05-20 10:36:31,994:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 10:36:31,994:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 10:36:31,995:INFO:Added job "CountrynStateData" to job store "default"
+2021-05-20 10:36:31,995:INFO:Scheduler started
+2021-05-20 10:36:31,996:INFO:Added job "DistrictsData" to job store "default"
+2021-05-20 10:36:31,996:INFO:Scheduler started
+2021-05-20 10:36:32,022:INFO:Scheduler has been shut down
+2021-05-20 10:36:32,023:INFO:Scheduler has been shut down
+2021-05-20 10:37:48,878:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 10:37:48,879:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 10:37:48,879:INFO:Added job "CountrynStateData" to job store "default"
+2021-05-20 10:37:48,879:INFO:Scheduler started
+2021-05-20 10:37:48,880:INFO:Added job "DistrictsData" to job store "default"
+2021-05-20 10:37:48,880:INFO:Scheduler started
+2021-05-20 10:37:48,910:INFO:Scheduler has been shut down
+2021-05-20 10:37:48,910:INFO:Scheduler has been shut down
+2021-05-20 10:39:11,095:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 10:39:11,095:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 10:39:11,096:INFO:Added job "CountrynStateData" to job store "default"
+2021-05-20 10:39:11,096:INFO:Scheduler started
+2021-05-20 10:39:11,096:INFO:Added job "DistrictsData" to job store "default"
+2021-05-20 10:39:11,096:INFO:Scheduler started
+2021-05-20 10:39:11,124:INFO:Scheduler has been shut down
+2021-05-20 10:39:11,124:INFO:Scheduler has been shut down
+2021-05-20 10:39:19,938:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 10:39:19,938:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 10:39:19,939:INFO:Added job "CountrynStateData" to job store "default"
+2021-05-20 10:39:19,939:INFO:Scheduler started
+2021-05-20 10:39:19,939:INFO:Added job "DistrictsData" to job store "default"
+2021-05-20 10:39:19,940:INFO:Scheduler started
+2021-05-20 10:39:19,965:INFO:Scheduler has been shut down
+2021-05-20 10:39:19,966:INFO:Scheduler has been shut down
+2021-05-20 10:39:41,670:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 10:39:41,670:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 10:39:41,671:INFO:Added job "CountrynStateData" to job store "default"
+2021-05-20 10:39:41,671:INFO:Scheduler started
+2021-05-20 10:39:41,671:INFO:Added job "DistrictsData" to job store "default"
+2021-05-20 10:39:41,671:INFO:Scheduler started
+2021-05-20 10:39:41,672:INFO:Scheduler has been shut down
+2021-05-20 10:39:41,673:INFO:Scheduler has been shut down
+2021-05-20 10:39:52,465:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 10:39:52,465:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 10:39:52,465:INFO:Added job "CountrynStateData" to job store "default"
+2021-05-20 10:39:52,466:INFO:Scheduler started
+2021-05-20 10:39:52,466:INFO:Added job "DistrictsData" to job store "default"
+2021-05-20 10:39:52,466:INFO:Scheduler started
+2021-05-20 10:39:52,467:INFO:Scheduler has been shut down
+2021-05-20 10:39:52,468:INFO:Scheduler has been shut down
+2021-05-20 10:40:02,660:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 10:40:02,661:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 10:40:02,661:INFO:Added job "CountrynStateData" to job store "default"
+2021-05-20 10:40:02,661:INFO:Scheduler started
+2021-05-20 10:40:02,662:INFO:Added job "DistrictsData" to job store "default"
+2021-05-20 10:40:02,662:INFO:Scheduler started
+2021-05-20 10:40:02,663:INFO:Scheduler has been shut down
+2021-05-20 10:40:02,663:INFO:Scheduler has been shut down
+2021-05-20 10:44:50,035:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 10:44:50,035:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 10:44:50,036:INFO:Added job "CountrynStateData" to job store "default"
+2021-05-20 10:44:50,036:INFO:Scheduler started
+2021-05-20 10:44:50,036:INFO:Added job "DistrictsData" to job store "default"
+2021-05-20 10:44:50,036:INFO:Scheduler started
+2021-05-20 10:44:50,058:INFO:Scheduler has been shut down
+2021-05-20 10:44:50,059:INFO:Scheduler has been shut down
+2021-05-20 10:45:06,401:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 10:45:06,402:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 10:45:06,402:INFO:Added job "CountrynStateData" to job store "default"
+2021-05-20 10:45:06,402:INFO:Scheduler started
+2021-05-20 10:45:06,403:INFO:Added job "DistrictsData" to job store "default"
+2021-05-20 10:45:06,403:INFO:Scheduler started
+2021-05-20 10:45:06,422:INFO:Scheduler has been shut down
+2021-05-20 10:45:06,423:INFO:Scheduler has been shut down
+2021-05-20 10:45:45,147:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 10:45:45,147:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 10:45:45,148:INFO:Added job "CountrynStateData" to job store "default"
+2021-05-20 10:45:45,148:INFO:Scheduler started
+2021-05-20 10:45:45,149:INFO:Added job "DistrictsData" to job store "default"
+2021-05-20 10:45:45,149:INFO:Scheduler started
+2021-05-20 10:45:45,169:INFO:Scheduler has been shut down
+2021-05-20 10:45:45,170:INFO:Scheduler has been shut down
+2021-05-20 10:47:12,331:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 10:47:12,331:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 10:47:12,332:INFO:Added job "CountrynStateData" to job store "default"
+2021-05-20 10:47:12,332:INFO:Scheduler started
+2021-05-20 10:47:12,333:INFO:Added job "DistrictsData" to job store "default"
+2021-05-20 10:47:12,333:INFO:Scheduler started
+2021-05-20 10:47:12,356:INFO:Scheduler has been shut down
+2021-05-20 10:47:12,356:INFO:Scheduler has been shut down
+2021-05-20 10:47:20,233:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 10:47:20,233:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 10:47:20,234:INFO:Added job "CountrynStateData" to job store "default"
+2021-05-20 10:47:20,234:INFO:Scheduler started
+2021-05-20 10:47:20,234:INFO:Added job "DistrictsData" to job store "default"
+2021-05-20 10:47:20,235:INFO:Scheduler started
+2021-05-20 10:47:20,255:INFO:Scheduler has been shut down
+2021-05-20 10:47:20,255:INFO:Scheduler has been shut down
+2021-05-20 10:47:44,880:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 10:47:44,880:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 10:47:44,880:INFO:Added job "CountrynStateData" to job store "default"
+2021-05-20 10:47:44,881:INFO:Scheduler started
+2021-05-20 10:47:44,881:INFO:Added job "DistrictsData" to job store "default"
+2021-05-20 10:47:44,881:INFO:Scheduler started
+2021-05-20 10:47:44,882:INFO:Scheduler has been shut down
+2021-05-20 10:47:44,883:INFO:Scheduler has been shut down
+2021-05-20 10:48:21,448:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 10:48:21,449:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 10:48:21,449:INFO:Added job "CountrynStateData" to job store "default"
+2021-05-20 10:48:21,449:INFO:Scheduler started
+2021-05-20 10:48:21,450:INFO:Added job "DistrictsData" to job store "default"
+2021-05-20 10:48:21,450:INFO:Scheduler started
+2021-05-20 10:48:21,452:INFO:Scheduler has been shut down
+2021-05-20 10:48:21,452:INFO:Scheduler has been shut down
+2021-05-20 10:49:02,861:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 10:49:02,861:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 10:49:02,862:INFO:Added job "CountrynStateData" to job store "default"
+2021-05-20 10:49:02,862:INFO:Scheduler started
+2021-05-20 10:49:02,862:INFO:Added job "DistrictsData" to job store "default"
+2021-05-20 10:49:02,862:INFO:Scheduler started
+2021-05-20 10:49:02,863:INFO:Scheduler has been shut down
+2021-05-20 10:49:02,864:INFO:Scheduler has been shut down
+2021-05-20 11:42:36,252:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 11:42:36,253:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 11:42:36,253:INFO:Added job "CountrynStateData" to job store "default"
+2021-05-20 11:42:36,253:INFO:Scheduler started
+2021-05-20 11:42:36,254:INFO:Added job "DistrictsData" to job store "default"
+2021-05-20 11:42:36,254:INFO:Scheduler started
+2021-05-20 11:42:36,263:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-20 11:42:36,265:INFO: * Restarting with stat
+2021-05-20 11:42:37,404:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 11:42:37,404:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 11:42:37,405:INFO:Added job "CountrynStateData" to job store "default"
+2021-05-20 11:42:37,405:INFO:Scheduler started
+2021-05-20 11:42:37,405:INFO:Added job "DistrictsData" to job store "default"
+2021-05-20 11:42:37,405:INFO:Scheduler started
+2021-05-20 11:42:37,413:WARNING: * Debugger is active!
+2021-05-20 11:42:37,413:INFO: * Debugger PIN: 132-433-038
+2021-05-20 11:42:44,647:INFO:127.0.0.1 - - [20/May/2021 11:42:44] "GET / HTTP/1.1" 200 -
+2021-05-20 11:42:47,611:INFO:Scheduler has been shut down
+2021-05-20 11:42:47,612:INFO:Scheduler has been shut down

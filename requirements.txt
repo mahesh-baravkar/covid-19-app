@@ -5,3 +5,4 @@ Flask-SQLAlchemy==2.5.1
 gunicorn==20.1.0
 pandas==1.1.5
 requests==2.25.1
+configparser==5.0.2
