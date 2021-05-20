@@ -388,3 +388,15 @@
 2021-05-20 11:42:44,647:INFO:127.0.0.1 - - [20/May/2021 11:42:44] "GET / HTTP/1.1" 200 -
 2021-05-20 11:42:47,611:INFO:Scheduler has been shut down
 2021-05-20 11:42:47,612:INFO:Scheduler has been shut down
+2021-05-20 11:44:27,431:INFO:Country Data Added in 20.314899921417236
+2021-05-20 11:44:36,191:INFO:District Data Added in 29.073214769363403
+2021-05-20 11:44:36,316:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 11:44:36,316:INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-05-20 11:44:36,317:INFO:Added job "CountrynStateData" to job store "default"
+2021-05-20 11:44:36,317:INFO:Scheduler started
+2021-05-20 11:44:36,317:INFO:Added job "DistrictsData" to job store "default"
+2021-05-20 11:44:36,317:INFO:Scheduler started
+2021-05-20 11:44:48,580:INFO:Country Data Added in 12.262078046798706
+2021-05-20 11:45:06,575:INFO:District Data Added in 30.25682806968689
+2021-05-20 11:45:06,576:INFO:Scheduler has been shut down
+2021-05-20 11:45:06,577:INFO:Scheduler has been shut down
