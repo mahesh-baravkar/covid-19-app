@@ -76,4 +76,3 @@ def DistrictsData():
 # threasD.start()
 # threadCS.join()
 # threasD.join()
-
