@@ -29,7 +29,7 @@ import routes
 from apidata import  CountrynStateData, DistrictsData
 
 scheduler1.add_job(func= CountrynStateData, trigger="interval", minutes=30)
-scheduler2.add_job(func= DistrictsData, trigger="interval", minutes=32)
+scheduler2.add_job(func= DistrictsData, trigger="interval", minutes=35)
 scheduler1.start()
 scheduler2.start()
 atexit.register(lambda: scheduler1.shutdown())
